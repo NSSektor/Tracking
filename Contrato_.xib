@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="Contrato">
+            <connections>
+                <outlet property="ContentView_" destination="hCX-h0-mk1" id="t5L-Hs-Dhx"/>
+                <outlet property="ScrollView_" destination="bmZ-Np-csY" id="Lig-aL-Fhx"/>
+                <outlet property="btn_atras" destination="KYg-ek-36V" id="bm8-lm-Y4a"/>
+                <outlet property="txt_texto_original" destination="tAg-NB-OMp" id="sOz-MH-GOn"/>
+                <outlet property="view" destination="iN0-l3-epB" id="sEz-i6-LUm"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Términos y Condiciones" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="e7e-re-0Ib">
+                    <rect key="frame" x="0.0" y="20" width="320" height="40"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                    <color key="textColor" red="0.96078431369999995" green="0.4823529412" blue="0.12549019610000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="KYg-ek-36V">
+                    <rect key="frame" x="8" y="27" width="30" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" backgroundImage="Imagen3">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="bmZ-Np-csY">
+                    <rect key="frame" x="0.0" y="60" width="320" height="420"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" id="hCX-h0-mk1" userLabel="Content View">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="557"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" selectable="NO" id="tAg-NB-OMp">
+                                    <rect key="frame" x="10" y="8" width="300" height="370"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <color key="backgroundColor" red="0.94117647059999998" green="0.94117647059999998" blue="0.94117647059999998" alpha="1" colorSpace="calibratedRGB"/>
+                                    <attributedString key="attributedText">
+                                        <fragment>
+                                            <string key="content">CONDICIONES LEGALES DE CONTRATACIÓN
+</string>
+                                            <attributes>
+                                                <font key="NSFont" size="14" name="HelveticaNeue"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                            </attributes>
+                                        </fragment>
+                                        <fragment>
+                                            <string key="content">
+Por favor, lea con atención las presentes Condiciones Legales de Contratación. Su aceptación atribuye al usuario la condición de Cliente y expresa la aceptación plena y sin reservas de todos los términos aquí enunciados. 
+Estas condiciones incluyen tanto las Condiciones Generales como las Condiciones Particulares de Contratación  correspondientes a las  características específicas  del producto o servicio adquirido.  
+Marcando la opción “He leído y acepto las Condiciones Legales”, el cliente acepta sin reservas la totalidad de las siguientes Condiciones Generales y Particulares.   
+CONDICIONES GENERALES DE CONTRATACIÓN  
+ 
+PRIMERA.- ACUERDO DE LICENCIA DE USO DE LA APLICACIÓN    
+1.1.- Cesión de uso  
+El presente Acuerdo de Licencia regula la cesión de uso que se otorga por “OPERADORA DE RASTREOS UDA, S.A. DE C.V.” (en adelante, “ORU”), como legítimo titular de los derechos de propiedad intelectual, al usuario (en adelante, “el CLIENTE”) que contrate el uso de la Aplicación Móvil Tracking (en adelante, “la aplicación”). 
+   
+Adicionalmente, cada uno de los productos comercializados por ORU serán, en su caso, objeto de una regulación específica mediante las  Condiciones Particulares de Contratación de cada uno de ellos, las cuales estarán accesibles en la aplicación  mencionada. 
+Esta cesión es revocable, no exclusiva, intransferible, y sujeta al plazo indicado en el presente acuerdo.  
+1.2.- Descripción y Condiciones de uso de la aplicación  
+La aplicación se aloja en los dispositivos móviles del usuario y se conecta a los servidores de ORU, en los que deberá registrarse a través de un usuario autorizado por ORU para poder llevar a cabo el control de navegación. 
+Para el funcionamiento completo de la aplicación, ORU prestará un servicio de envío de información de control de navegación al cliente de acuerdo a lo recogido en las presentes Condiciones Legales (ver cláusula Segunda, “Servicios prestados”). 
+El dispositivo será, en todo caso, propiedad del Cliente. 
+El Cliente tendrá derecho a usar la aplicación, de acuerdo a lo previsto en las presentes condiciones legales, accediendo a la misma mediante su clave personal. 
+Para el acceso o la utilización de la aplicación se requieren las condiciones técnicas que se especifican en las tiendas de aplicaciones móviles correspondientes, a las cuales el cliente reconoce haber tenido acceso antes de la aceptación del presente contrato.  
+1.3.- Obligaciones del Cliente   
+El Cliente declara ser mayor de edad y tener capacidad legal para obligarse comprometiéndose a: 
+•	Utilizar la aplicación y la información obtenida como resultado del uso de la misma de conformidad con la Ley y con las presentes condiciones legales y no ceder ni transmitir a terceros los derechos adquiridos mediante este acuerdo, siendo  de su  exclusiva responsabilidad  el  uso que de la  aplicación  o  de la información generada puedan hacer terceras personas. El cliente se compromete a custodiar sus datos de acceso a la aplicación. 
+•	Tener  el  acceso  a  la  aplicación  exclusivamente  en  dispositivos  de  su propiedad. 
+•	No utilizar la aplicación para cualquier fin que no sea la exclusiva satisfacción de sus propias necesidades de uso  y dentro del uso descrito en el presente documento; sin obtener, de forma enunciativa y no limitativa, arrendar, prestar, vender o sublicenciar la aplicación. 
+•	No utilizar la aplicación con fines o efectos ilícitos, contrarios a lo establecido en el presente documento, lesivos de los derechos e intereses de ORU o de terceros  o  que  de  cualquier  forma  puedan  impedir  la  normal  utilización  o disfrute de la aplicación por parte de los demás usuarios. 
+•	No realizar sobre la aplicación ingeniería inversa, ni descompilar, desensamblar, reproducir, traducir, modificar, versionar o duplicar la aplicación, parcialmente o en su totalidad, en forma o por medio alguno.  
+1.4.- Proceso de contratación  
+•	Para la formalización del presente Acuerdo de Licencia y la prestación de los servicios, ORU pone a disposición la aceptación voluntaria o el rechazo según convenga, en la que se encuentra acumuladas las presentes Condiciones Legales, se informa al Cliente acerca de los distintos productos y servicios permitiendo la acumulación de los datos del Cliente necesarios para llevar a cabo el proceso de contratación. 
+•	No  obstante  lo  anterior,  en  determinados  casos,  podrán  llevarse  a  cabo promociones puntuales que permitan la condonación del uso de la aplicación durante el tiempo que dure la relación comercial. 
+•	Una vez incluida la información requerida y marcada la opción “He leído y acepto  las  condiciones  Legales”,  el Cliente podrá consultarlas desde la aplicación móvil.  
+1.5.- Responsabilidad  
+El Cliente será el único responsable de la información de navegación asociada al dispositivo controlado y tratada por ORU de acuerdo a las presentes condiciones legales. 
+El Cliente autoriza el tratamiento de dicha información por parte de ORU, que únicamente lo hará con la finalidad indicada y no la conservará a la finalización de los servicios contratados, sin perjuicio de que la misma pueda ser almacenada, debidamente bloqueada, en tanto en cuanto pudieran derivarse responsabilidades de la relación entre ORU y el Cliente. 
+No obstante lo anterior, ORU se reserva el derecho a utilizar la información de navegación   previamente   disociada,   con   la   finalidad   de   llevar   a   cabo   análisis comerciales, o para el desarrollo de nuevos productos y servicios. 
+Debido a la especial configuración de Internet, ORU garantiza la disponibilidad de la aplicación quedando excluida cualquier responsabilidad en este sentido. 
+ORU no garantiza los resultados de la aplicación, su calidad o idoneidad para un fin determinado más allá de la funcionalidad descrita y no será responsable por daños directos o indirectos, consiguientes o incidentales derivados del uso de la aplicación. 
+ORU únicamente se obliga al funcionamiento de la aplicación en caso de que los requisitos técnicos del dispositivo controlado sean los establecidos por ORU, reservándose el derecho de dejar de ofrecer aplicaciones compatibles con sistemas que, conforme a la evolución del mercado, vayan quedando obsoletos.  
+Dado que la instalación de la aplicación se hace online, ORU no está obligado a entregar copia del software de instalación. 
+ORU ofrece la aplicación libre de virus y de cualquier tipo de malware para su uso, exonerándose de cualquier deber de garantía o responsabilidad relacionado con la descarga y el uso de la aplicación.  
+1.6 Propiedad Intelectual e Industrial  
+ORU es titular de todos los derechos de propiedad intelectual sobre la aplicación, que está protegida por las Leyes de Propiedad Industrial en México y por las leyes aplicables del país donde se utilice. La estructura, organización y codificación de la Aplicación informática constituyen valiosos secretos comerciales e información confidencial de ORU. 
+La concesión de la presente cesión de uso no implica la transferencia de otros derechos sobre la propiedad industrial e intelectual de la aplicación informática o de sus contenidos. 
+Las marcas incluidas en la aplicación deberán utilizarse de conformidad con los usos comerciales sobre marcas, incluida la mención del nombre del propietario de la marca. Las marcas sólo pueden utilizarse para identificar los impresos producidos por la Aplicación. Esta utilización de cualquier marca contenida en la Aplicación  no implica la concesión de ningún derecho de propiedad sobre la misma.  
+1.7.- Derecho de Modificación y notificaciones  
+ORU se reserva el derecho de modificar unilateralmente, en cualquier momento y sin previo aviso, la presentación, configuración y contenidos de la aplicación así como las presentes estipulaciones, siempre que exista causa suficiente para ello. Mediante la modificación de las Condiciones Legales expuestas en él presente documento, se entenderá por notificada dicha modificación implicando el acceso a la aplicación a causa de dichas modificaciones.  
+1.8.- Resolución  
+ORU reserva el derecho a excluir y/o resolver la presente cesión de uso, temporal o definitivamente, en caso de incumplimiento por parte del cliente de cualquiera de los términos y condiciones establecidos en las presentes Condiciones Legales.  
+1.9.- Entrada en vigor y duración  
+El presente acuerdo entrará en vigor a la fecha de la aceptación de las presentes Condiciones por parte del cliente y, en su caso, desde el momento en que se verifique la efectividad del pago, siendo la duración del presente contrato indefinida a salvo de lo que, en su caso, puedan establecer las condiciones particulares de contratación del producto o sujetas al tiempo que perdure la relación comercial.  
+SEGUNDA.- SERVICIOS PRESTADOS  
+2.1.- Descripción del servicio de información. 
+De acuerdo a lo establecido en las presentes Condiciones Legales, y durante el plazo indicado en las mismas, ORU se compromete a prestar al Cliente el servicio consistente en el envío de la información relativa a la ubicación realizada de sus unidades móviles que cuenten con algún tipo de sistema de rastreo satelital proporcionado por Tracking Systems de  Mexico, S.A. de C.V.(en adelante, “el servicio”). 
+La  información  objeto  de  envío  incluirá,  exclusivamente,  el ingreso a la aplicación y toda la información incluida en la misma que ofrecen la ubicación o información relevante a la posición de sus unidades móviles. 
+Para la prestación del servicio de información contenida en la aplicación, el Cliente deberá facilitar alguna(s) dirección(es) de correo electrónico, para el envío de dicha información.  
+TERCERA.- PROTECCIÓN DE DATOS   
+Mediante  la  aceptación  de  las  presentes  Condiciones  Legales  el  Cliente  queda informado   y   autoriza   el   tratamiento   de   sus   datos   personales   en   un   fichero responsabilidad  de  ORU,  con  dirección  en  Carlos Arellano No. 14, Ciudad Satelite, Naucalpán de Juárez, Estado de México, CP. 53100. 
+El tratamiento de los datos personales tiene como finalidad el mantenimiento de la relación contractual establecida con ORU y el envío, por medios tradicionales y/o electrónicos, de información relativa a otros productos y servicios de ORU. 
+El cliente consiente que sus datos puedan ser cedidos a terceros dedicados a actividades de consultoría, asesoramiento o marketing, que presten servicios necesarios para el funcionamiento de la aplicación o relacionados con la misma y a cualquier entidad jurídica filial o participada por ORU con la finalidad de proporcionar al titular de los datos  personales  información  relativa  a  servicios  y  productos  relacionados  con ORU. 
+Puede ejercer sus derechos de acceso, rectificación, cancelación y oposición mediante notificación a ORU través de la dirección de correo electrónico   c.sac@grupouda.com.mx, incorporando copia de documentación que acredite su identidad.  
+CUARTA.- LEGISLACIÓN APLICABLE Y JURISDICCIÓN COMPETENTE   
+Para la interpretación y aplicación de este contrato las partes acuerdan que sean las leyes federales mexicanas las que rijan el presente contrato, y convienen expresamente en someterse a la jurisdicción de los tribunales de la Ciudad de México, renunciando expresamente a cualquier otra legislación o fuero que pudiera corresponderles por virtud de sus domicilios presentes o futuros. 
+CONDICIONES PARTICULARES 
+Las  presentes  Condiciones  Particulares  tienen  por  objeto  la  regulación  de  las condiciones específicas para el uso de la Aplicación Informática comercializada bajo la denominación ORU (en adelante, “la Aplicación”), por parte del CLIENTE (que tendrá la consideración de licenciatario) y de acuerdo a la cesión de uso que se otorga por ORU (como cedente) conforme al Acuerdo de Licencia incluido en las Condiciones Generales anteriormente expuestas.  
+El CLIENTE y ORU serán en conjunto en adelante “las partes”. 
+Las presentes Condiciones Particulares regulan las condiciones para el uso del Producto con arreglo a las siguientes CLAUSULAS   
+PRIMERA.- CARACTERISTICAS DE LA APLICACIÓN 
+La aplicación permite administrar la información emitida por los equipos de rastreo satelital relativa a la ubicación realizada de sus unidades móviles que cuenten con algún equipo proporcionado por Tracking Systems de  Mexico, S.A. de C.V. 
+Dichos dispositivos serán en todos los casos propiedad del Cliente y dicho Cliente puede utilizar el servicio para su propio control de sus unidades.  
+SEGUNDA.- CONDICIONES ECONÓMICAS, PRECIO Y FORMA DE PAGO 
+El precio y forma de pago para la concesión de la Licencia de uso de la Aplicación  en las condiciones acumuladas en las presentes condiciones aceptadas por las partes, será el especificado  en las condiciones comerciales acordadas entre las partes,  lo cual el  CLIENTE,  por  la  aceptación del presente documento manifiesta conocer y aceptar.  
+TERCERA.- DURACIÓN Y RENOVACIÓN 
+La duración del presente contrato y de la licencia de uso otorgada es limitada y se mantendrá el tiempo que perdure la relación comercial entre las partes o en caso de que la presente presente cambios. 
+ORU cuenta con todo el derecho de cancelar los servicios de acceso a la aplicación por cuestiones de adeudo en el pago de los servicios ofrecidos por ORU y empresas relacionadas con la misma. 
+Pudiendo las partes proceder a su  renovación mediante el pago por parte del Cliente de los adeudos pendientes.  
+ESTAMOS DE ACUERDO EN EL CONTENIDO DE LAS CLAUSULAS CONTEMPLADAS EN EL PRESENTE CONTRATO DE LICENCIAMIENTO  
+</string>
+                                            <attributes>
+                                                <font key="NSFont" size="14" name="HelveticaNeue"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                </textView>
+                            </subviews>
+                            <color key="backgroundColor" red="0.94117647058823528" green="0.94117647058823528" blue="0.94117647058823528" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                    </subviews>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" red="0.94117647058823528" green="0.94117647058823528" blue="0.94117647058823528" alpha="1" colorSpace="calibratedRGB"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="247" y="199"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Imagen3" width="48" height="46"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
