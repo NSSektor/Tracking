@@ -15,6 +15,8 @@
     IBOutlet UITextField *txt_pass;
     IBOutlet UIButton    *check_button;
     IBOutlet UIButton    *btn_enviar;
+    IBOutlet UIButton    *btn_ayuda;
+    IBOutlet UIButton    *btn_olvide;
     BOOL checked;
     NSMutableData *_responseData;
     IBOutlet UIActivityIndicatorView *actividad;

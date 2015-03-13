@@ -110,6 +110,11 @@ NSMutableArray*  MArrayIcono_Mapa;
     soapTool = [[SYSoapTool alloc]init];
     soapTool.delegate = self;
     GlobalString = @"";
+    
+    [btn_ayuda addTarget:self action:@selector(ayuda:) forControlEvents:UIControlEventTouchUpInside];
+    [btn_olvide addTarget:self action:@selector(olvidar:) forControlEvents:UIControlEventTouchUpInside];
+    [btn_enviar addTarget:self action:@selector(enviar:) forControlEvents:UIControlEventTouchUpInside];
+    [check_button addTarget:self action:@selector(check:) forControlEvents:UIControlEventTouchUpInside];
 
     
    

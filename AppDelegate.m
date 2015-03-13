@@ -52,16 +52,6 @@ BOOL mostrar_street;
     
     // Call takeOff (which creates the UAirship singleton)
     
-    dispositivo = @"iPhone";
-    CGSize screenSize = [[UIScreen mainScreen] bounds].size;
-    if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone) {
-        if (screenSize.height > 480.0f)
-            dispositivo = @"iPhone5";
-    }
-    else{
-        dispositivo = @"iPad";
-    }
-    
     [UAirship takeOff:config];
     
     [UAPush shared].userNotificationTypes = (UIUserNotificationTypeAlert | UIUserNotificationActivationModeBackground |
@@ -97,10 +87,20 @@ BOOL mostrar_street;
     descripcion_incidencias = [[NSMutableArray alloc]initWithContentsOfFile:fileName];
 
     
+    CGSize screenSize = [[UIScreen mainScreen] bounds].size;
+    
     if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone) {
-        if (screenSize.height > 480.0f) {
-            //Do iPhone 5 stuff here.
+        if (screenSize.height == 568.0f) {
             ViewName = [ViewName stringByAppendingString:@"_iPhone5"];
+            dispositivo = @"iPhone5";
+        }
+        if (screenSize.height == 667.0f) {
+            ViewName = [ViewName stringByAppendingString:@"_iPhone6"];
+            dispositivo = @"iPhone6";
+        }
+        if (screenSize.height == 736.0f) {
+            ViewName = [ViewName stringByAppendingString:@"_iPhone6plus"];
+            dispositivo = @"iPhone6plus";
         }
     } else {
         //Do iPad stuff here.
